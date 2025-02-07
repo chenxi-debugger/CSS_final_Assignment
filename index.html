@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Melinda's Seafood Restaurant</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CSonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <a style="font-family:'Gill Sans'; font-size:large;" href="#main" class="skip-link">Skip to Main Content</a>
+
+    <div class="top-background"></div>
+    
+    <header>
+      <h1>Melinda's Seafood Restaurant</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a class="current" href="index.html">Home</a></li>
+        <li><a href="memu.html">Menu</a></li>
+        <li><a href="new_manu.html">What's New</a></li> 
+      </ul>
+
+      <form class="search">
+        <input type="search" name="q" placeholder="Search query" aria-label="Search through site content">
+        <input type="submit" value="Go!">
+      </form>
+    </nav>
+
+
+    <main id="main">
+
+      <article>
+        <h2>Melinda's Seafood Restaurant - Santa Clara</h2>
+
+        <p>
+          Established in 1991, <em>Melinda's Seafood Restaurant</em> is Santa Clara’s choice for seafood. Located at the Westfield Valley Fair, Melinda's Seafood Restaurant features a large selection of live oysters, seasonal catches, sushi and live shellfish, including lobster and crab, on a menu that changes daily.</p>
+
+          <div class="frame">
+            <img src="image/dish_1.jpg" alt="Delicious grilled fish" class="active">
+            <img src="image/dish_2.jpg" alt="Fried lobster with butter">
+            <img src="image/dish_3.jpg" alt="A big plate of fresh oysters">
+            <img src="image/dish_4.jpg" alt="Simple but delicious set lunch">
+        </div>
+
+        <div class="navi">
+          <button onclick="showImage(0)" class="active">1</button>
+          <button onclick="showImage(1)">2</button>
+          <button onclick="showImage(2)">3</button>
+          <button onclick="showImage(3)">4</button>
+        </div>
+
+
+       <h3 class="new_year">Happy Lunar New Year</h3>
+
+          <p>Celebrate the Year of the Snake at Melinda's Seafood Restaurant. We usher in the Lunar New Year with seasonal decor and special dishes to help families celebrate this time of year, including .Garlic Noodles, Jumbo Lump Whole Crispy Black Sea Bass and Wok Fried Spiny Lobster.</p>
+       
+       <h3 class="vday">Reserve Surf & Turf this Valentine's Day</h3>
+
+          <p>Whether you're raising a glass to romance, friendship, or just celebrating your love of stellar food and wine, our <strong><mark> Valentine's Day menus</mark></strong> pair world-class flavors with unparalleled service for an evening beyond compare. Choose from an 8oz Filet and Lobster Tail For One, or a shareable 16oz Chateaubriand and 12oz Lobster Tail For Two — paired with Seared Scallops With Risotto to start and a luxurious Dark Chocolate Luxardo Cherry Tart as decadent as the evening itself. Available <strong><mark>Thursday, February 13 – Monday, February 17</mark></strong>.</p>
+
+          <img class='bar' src="image/vday_1.jpeg" alt="Heart-shaped lobster rice">
+          <img class='bar' src="image/vday_2.jpeg" alt="Valentine's set">
+          <img class='bar' src="image/vday_3.jpeg" alt="Lobster tail with roses">
+        
+        
+      <h3>KIDS LOVE US</h3>
+
+        <p>Our Kids Menu features eight pages of activities, including temporary tattoos and stamps. Your kids will want to bring the cup home with them too! We don't ever reuse Kids Menus, and we recycle all of our crayons after one use.</p>
+
+        <div class="image-grid">
+          <img src="image/kids_1.jpeg" alt="kids menu">
+          <img src="image/kids_2.jpeg" alt="Simple but delicious set lunch">
+          <img src="image/kids_3.jpg" alt="delicious kids food">
+          <img src="image/kids_4.jpg" alt="crispy fried pork">
+          <img src="image/kids_5.jpg" alt="tuna poke">
+          <img src="image/kids_6.png" alt="tacos for kids">
+        </div>
+
+    
+
+      <h3>COCKTAIL BAR</h3>
+
+        <p>Whether you’re in the mood for a Mai Tai or a margarita, we’ve got our shelves fully stocked for your favorite boozy concoction! Our patio is insulated with heaters so you can keep warm even if you’re dining outside!</p>
+
+        <img class='bar' src="image/bar_1.jpeg" alt="the view of the bar">
+        <img class='bar' src="image/bar_2.jpeg" alt="a glass of red wine">
+        <img class='bar' src="image/bar_3.jpeg" alt="Corner of the bar">
+
+
+      <h3>Join our team</h3>
+
+        <p>We're growing, and we're actively looking for passionate new cooks and crewmembers. Leave your name and your comment below to show us your interest!</p>
+
+        
+        
+        <section class="comments">
+          <h3>YOUR OPINIONS MATTER</h3>
+          <div class="comment-wrapper">
+            <form class="comment-form">
+              <div class="flex-pair">
+                <label for="name">Your name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+              </div>
+              <div class="flex-pair">
+                <label for="comment">Your comment:</label>
+                <input type="text" name="comment" id="comment" placeholder="Enter your comment">
+              </div>
+              <div>
+                <input type="submit" value="Submit comment">
+              </div>
+            </form>
+          </div>
+        </section>
+      </article>
+
+      
+
+      <div class="secondary">
+        <h2>Opening Times</h2>
+        <ul>
+          <li>MONDAY 11AM - 9PM</li>
+          <li>TUESDAY 11AM - 9PM</li>
+          <li>WEDNESDAY 11AM - 9PM</li>
+          <li>THURSDAY 11AM - 9PM</li>
+          <li>FRIDAY 11AM - 10PM</li>
+          <li>SATURDAY 11AM - 10PM</li>
+          <li>SUNDAY 11AM - 9PM</li>
+        </ul>   
+    </div>
+
+    <div class="fixed-element">
+      <p>Happy Hour available dine-in only</p>
+      <p>Monday through Friday from 3pm-6pm</p>
+    </div>
+
+    </main>
+
+    <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+
+    <script src="main.js"></script>
+
+  </body>
+</html>
